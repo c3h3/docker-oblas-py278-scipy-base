@@ -1,7 +1,7 @@
 
 FROM c3h3/oblas-py278
 
-RUN pip install cython
+RUN pip install cython==0.19
 
 RUN git clone -q --branch=v1.8.2 https://github.com/numpy/numpy.git /tmp/numpy
 ADD numpy-site.cfg /tmp/numpy/site.cfg 
