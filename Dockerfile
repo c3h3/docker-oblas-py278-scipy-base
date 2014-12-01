@@ -1,5 +1,5 @@
 
-FROM c3h3/oblas-py278
+FROM c3h3/oblas-py278:u1404
 
 RUN pip install cython==0.19
 
